@@ -1,0 +1,22 @@
+.appContainer {
+  color: var(--primary-text-color);
+  background-color: var(--primary-background-color);
+
+  .themeSelector {
+    cursor: pointer;
+    padding: 0.5rem;
+    min-width: 4rem;
+    justify-content: center;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 9;
+    border-radius: 2rem;
+    display: flex;
+    border: 2px solid var(--primary-contrast-color);
+    background-color: var(--primary-background-color); 
+    color: var(--primary-text-color);
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+}

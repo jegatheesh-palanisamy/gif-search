@@ -1,0 +1,24 @@
+.container {
+  .searchClose {
+    cursor: pointer;
+    top: 50%;
+    right: 10px;
+    font-size: 20px;
+    transform: translateY(-50%) rotate(45deg);    
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-background-color);
+  }
+  .searchbar {
+    color: var(--primary-text-color);
+    background-color: var(--secondary-background-color);
+    &:focus {
+      color: var(--primary-text-color);
+      background-color: var(--secondary-background-color);
+    }
+  }
+}

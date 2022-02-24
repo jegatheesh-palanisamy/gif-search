@@ -1,0 +1,15 @@
+$card-padding: 0.5rem;
+
+.cardWrapper {
+  padding: 50% $card-padding 50%;
+  background-color: var(--secondary-background-color);
+  .childWrapper {
+    cursor: pointer;
+    width: calc(100% - 2 * $card-padding);
+    height: calc(100% - 2 * $card-padding);
+    top: $card-padding;
+    left: $card-padding;
+    object-fit: contain;
+    object-position: 50%;
+  }
+}

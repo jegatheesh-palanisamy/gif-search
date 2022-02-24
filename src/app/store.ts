@@ -1,9 +1,11 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import gifReducer from '../slices/gif/gifSlice';
+import appReducer from '../slices/app/appSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    gif: gifReducer,
+    app: appReducer
   },
 });
 
